@@ -1,0 +1,46 @@
+body
+{
+	background-color: #222;
+}
+
+h1
+{
+	display: flex;
+	justify-content: center;
+	border: solid darkred;
+	color: gray;
+}
+
+.A1
+{
+	font-family: "Comic Sans";
+	font-size: 1.25em;
+	color: #888;
+	text-align: center;
+	border: dashed rgba(150,150,0,1);
+}
+
+img
+{
+	width: 320px;
+	height: 400px;
+	transition-duration: 0.5s;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+img:hover
+{
+	width: 360px;
+	height: 448px;
+	
+}
+
+p
+{
+	font-family: "Comic Sans";
+	font-size: 1.25em;
+	color: #888;
+}
